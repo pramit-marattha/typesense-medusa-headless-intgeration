@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap");
+/* App.css */
+body {
+  font-family: poppins, sans-serif;
+  padding: 1em;
+}
+
+.ais-SearchBox {
+  margin: 1em 0;
+}
+
+.ais-Pagination {
+  margin-top: 1em;
+}
+
+.left-panel {
+  float: left;
+  width: 250px;
+}
+
+.right-panel {
+  margin-left: 260px;
+}
+
+.ais-InstantSearch {
+  max-width: 960px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.ais-Hits-item {
+  margin-bottom: 1em;
+  width: calc(99% - 1rem);
+}
+
+.ais-Hits-item img {
+  margin-right: 1em;
+}
+h1{
+  text-align: center;
+}
+
+.hit-name {
+  margin-bottom: 0.5em;
+  font-weight: 600;
+}
+
+.hit-description {
+  color: #888;
+  font-size: 14px;
+  margin-bottom: 0.5em;
+}
